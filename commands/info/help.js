@@ -30,7 +30,7 @@ if(message.content.toLowerCase() === `${prefix}help`){
     var log = new Discord.MessageEmbed()
     .setColor(`#0000FF`)
     .setTitle(" 😁😁 \` Welcome to My Help Menu \` 😁😁")
-    .addField('Prefix Information', `Prefix: \`%\`\nYou can also mention \`SWGC\` to get prefix info.`)
+    .addField('Prefix Information', `Prefix: \`${prefix}\`\nYou can also mention \`SWGC\` to get prefix info.`)
     .setDescription(
     `Use \`%help\` followed by a command name to get more additional information on a command. For example: \`%help play\`.`
                 )
